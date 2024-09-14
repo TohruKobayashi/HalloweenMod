@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "halloweenmod:candy_watermelon"
+    },
+    {
+      "item": "halloweenmod:candy_greenapple"
+    },
+    {
+      "item": "halloweenmod:candy_lemon"
+    },
+    {
+      "item": "halloweenmod:candy_pumpkin"
+    },
+    {
+      "item": "halloweenmod:candy_grape"
+    }
+  ],
+  "result": {
+    "id": "halloweenmod:candy_mega"
+  }
+}
