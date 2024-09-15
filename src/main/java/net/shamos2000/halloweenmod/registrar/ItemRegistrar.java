@@ -2,8 +2,6 @@ package net.shamos2000.halloweenmod.registrar;
 
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -29,4 +27,10 @@ public class ItemRegistrar {
     public static final RegistryObject<Item> CANDY_LEMON = ITEMS.register("candy_lemon", () -> new CandyItem(CandyItem.CandyType.LEMON));
     public static final RegistryObject<Item> CANDY_PUMPKIN = ITEMS.register("candy_pumpkin", () -> new CandyItem(CandyItem.CandyType.PUMPKIN));
     public static final RegistryObject<Item> CANDY_GRAPE = ITEMS.register("candy_grape", () -> new CandyItem(CandyItem.CandyType.GRAPE));
+
+    public static final RegistryObject<Item> DIABOLIC_COMPOUND = ITEMS.register("diabolic_compound", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MALEVOLENT_ENERGY = ITEMS.register("malevolent_energy", () -> new Item(new Item.Properties()));
+
+    // MONSTER DETECTOR
+
 }

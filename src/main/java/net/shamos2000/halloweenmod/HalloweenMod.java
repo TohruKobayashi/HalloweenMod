@@ -101,6 +101,20 @@ public class HalloweenMod
     {
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
             event.accept(EXAMPLE_BLOCK_ITEM);
+
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ItemRegistrar.DIABOLIC_COMPOUND);
+            event.accept(ItemRegistrar.MALEVOLENT_ENERGY);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+            event.accept(ItemRegistrar.CANDY_WATERMELON);
+            event.accept(ItemRegistrar.CANDY_GREENAPPLE);
+            event.accept(ItemRegistrar.CANDY_LEMON);
+            event.accept(ItemRegistrar.CANDY_PUMPKIN);
+            event.accept(ItemRegistrar.CANDY_GRAPE);
+            event.accept(ItemRegistrar.CANDY_MEGA);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
